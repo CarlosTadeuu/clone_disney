@@ -24,7 +24,7 @@
 		justify-content: center;
 		&__button {
 			cursor: pointer;
-			color: variaveis.$corTextoSecudario;
+			color: variaveis.$corTextoSecundario;
 			font-size: 20px;
 			border: none;
 			padding-bottom: 5px;
@@ -33,7 +33,7 @@
 			margin: 0 1vw;
 			border-bottom: 5px solid transparent;
 			&--is-active {
-				border-color: variaveis.$corTextoSecudario;
+				border-color: variaveis.$corTextoSecundario;
 			}
 		}
 	}
