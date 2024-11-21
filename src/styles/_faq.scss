@@ -20,6 +20,10 @@
 				cursor: pointer;
 				position: relative;
 
+				@media (max-width: 768px) {
+					font-size: 16px;
+				}
+
 				&::after {
 					content: "+";
 					position: absolute;
@@ -29,6 +33,10 @@
 					display: flex;
 					align-items: center;
 					font-size: 40px;
+
+					@media (max-width: 768px) {
+						right: 10px;
+					}
 				}
 			}
 			&__answer {
