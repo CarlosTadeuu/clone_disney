@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
 	const questions = document.querySelectorAll("[data-faq-question]");
 
 	const heroSection = document.querySelector(".hero");
-	const auturaHero = heroSection.clientHeight;
+	const alturaHero = heroSection.clientHeight;
 
 	window.addEventListener("scroll", function () {
 		let posicaoAtual = window.scrollY;
-		if (posicaoAtual <= 0 || posicaoAtual < auturaHero) {
+		if (posicaoAtual <= 0 || posicaoAtual < alturaHero) {
 			ocutaElementosHeader();
 		} else {
 			exibeElementosHeader();
